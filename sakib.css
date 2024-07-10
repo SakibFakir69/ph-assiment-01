@@ -17,7 +17,7 @@
 #one_img {
     height: 500px;
     width: 1200px;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -508,7 +508,7 @@ iframe {
 
     background: rgb(255, 255, 255);
     color: rgb(13, 19, 33);
-    font-family:monospace;
+    font-family: monospace;
     font-size: 15px;
     font-weight: 600;
     line-height: 23px;
@@ -516,4 +516,16 @@ iframe {
     text-align: center;
 
 
+}
+
+.xp {
+    color: rgb(13, 19, 33);
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
 }
