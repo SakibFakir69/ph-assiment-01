@@ -67,7 +67,7 @@
     color: white;
     font-weight: 550;
     font-size: 14px;
-    width: 180px;
+    width: 170px;
     height: 50px;
     border: none;
     border-radius: 6px;
@@ -135,7 +135,7 @@
     border: 2px solid red;
     margin-top: 10px;
     display: flex;
-    margin-top:40px;
+    margin-top: 40px;
     justify-content: center;
     flex-wrap: wrap;
 
@@ -256,7 +256,7 @@
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.0.15;
-    border:none;
+    border: none;
 
 }
 
@@ -264,41 +264,99 @@ button {
     color: rgb(13, 19, 33);
 }
 
-#last_h1{
-    color:rgba(13, 19, 33, 0.7);
+#last_h1 {
+    color: rgba(13, 19, 33, 0.7);
     font-weight: 700;
     font-size: 24px;
 }
 
-#last_p{
+#last_p {
     font-weight: 400;
     font-size: 14px;
-    color:rgb(13, 19, 33);
+    color: rgb(13, 19, 33);
 
 }
 
-#dwon_title{
-    height:100px;
-    width:800px;
+#dwon_title {
+    height: 100px;
+    width: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    gap:20px;
+    gap: 20px;
 }
 
-#p_dwon{
-    height:40px;
-    width:650px;
+#p_dwon {
+    height: 40px;
+    width: 650px;
     font-weight: 400;
     font-size: 16px;
     line-height: 15px;
     margin-top: -15px;
 }
-#h1_dwon{
-    color:rgb(13, 19, 33);
+
+#h1_dwon {
+    color: rgb(13, 19, 33);
     font-weight: 600;
     font-size: 20px;
+
+}
+
+/* start video content */
+
+
+
+#video_content {
+    height: 450px;
+    width: 1000px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+iframe {
+    height: 400px;
+    width: 960px;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+
+}
+
+
+#main_3_text{
+    height:100px;
+    width:800px;
+    text-align: center;
+}
+
+#main_div{
+    margin:0 auto;
+    height:450px;
+    width: 1000px;
+}
+
+#hard_3{
+    width:350px;
+    height:270px;
+}
+
+#hard_3{
+    height:350px;
+    width: 1000px;
+    display: flex;
+    gap:10px;
+}
+
+#hard_03,#hard_02,#hard_01{
+    height:170px;
+    width:400px;
+    text-wrap: wrap;
+    border:2px solid red;
+    padding:10px;
 
 }
