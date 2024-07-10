@@ -529,6 +529,17 @@ iframe {
     font-weight: 400;
     font-size: 14px;
 }
+/* start workin on bounes */
 #ten{
-    
+    height:60px;
+    width:1050px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 auto;
+
+}
+#five{
+    text-align: left;
 }
