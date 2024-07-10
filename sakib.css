@@ -529,17 +529,26 @@ iframe {
     font-weight: 400;
     font-size: 14px;
 }
+
 /* start workin on bounes */
-#ten{
-    height:60px;
-    width:1050px;
+#ten {
+    height: 60px;
+    width: 1050px;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
-    margin:0 auto;
+    margin: 0 auto;
+    background-color: rgba(13, 19, 33, 0.03);
 
 }
-#five{
-    text-align: left;
+
+#five {
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 20px;
+    color:rgb(13, 19, 33);
+}
+#last_input{
+    border-radius: 8px;
 }
