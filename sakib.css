@@ -1,4 +1,4 @@
-.azeret-mono-sakibfakie {
+.azeret-mono-sakibfakir {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
     font-weight: 410;
@@ -17,6 +17,7 @@
 #one_img {
     height: 500px;
     width: 1200px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,7 +97,7 @@
     height: 1200px;
     display: flex;
     padding: 80px 97px 80px 97px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     margin-top: 150px;
     border-radius: 14px;
@@ -107,7 +108,7 @@
 #big_box_2 {
     height: 1050px;
     width: 970px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 
 
 }
@@ -132,7 +133,7 @@
     background: rgb(255, 255, 255) rgba(255, 255, 255, 0);
     width: 800px;
     height: 220px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 10px;
     display: flex;
     margin-top: 40px;
@@ -169,7 +170,7 @@
 #two_content {
     height: 220px;
     width: 800px;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     text-wrap: wrap;
 
 
@@ -229,7 +230,6 @@
 
 
 
-    border: 2px solid green;
 }
 
 #content_box {
@@ -328,35 +328,192 @@ iframe {
 }
 
 
-#main_3_text{
-    height:100px;
-    width:800px;
+#main_3_text {
+    height: 100px;
+    width: 1000px;
     text-align: center;
 }
 
-#main_div{
-    margin:0 auto;
-    height:450px;
-    width: 1000px;
+#main_div {
+    margin: 0 auto;
+    height: 450px;
+    width: 1050px;
 }
 
-#hard_3{
-    width:350px;
-    height:270px;
+#hard_3 {
+    width: 350px;
+    height: 270px;
 }
 
-#hard_3{
-    height:350px;
+#hard_3 {
+    height: 350px;
     width: 1000px;
     display: flex;
-    gap:10px;
+    gap: 10px;
 }
 
-#hard_03,#hard_02,#hard_01{
-    height:170px;
-    width:400px;
+#hard_03,
+#hard_02,
+#hard_01 {
+    height: 280px;
+    width: 400px;
     text-wrap: wrap;
-    border:2px solid red;
-    padding:10px;
+    /* border: 2px solid red; */
+    padding: 10px;
+    display: flex;
+    align-content: center;
+    align-items: left;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+
+#hard_01 {
+    border-radius: 16px;
+
+    background: rgba(255, 76, 30, 0.05);
+    background-color: rgba(255, 76, 30, 0.05);
+    padding: 10px;
+
+}
+
+#hard_02 {
+    border-radius: 16px;
+
+    background: rgba(0, 76, 232, 0.05);
+    background-color: rgba(0, 76, 232, 0.05);
+    padding: 10px;
+
+}
+
+#hard_03 {
+    border-radius: 16px;
+
+    background: rgba(255, 223, 0, 0.05);
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+#targt_text {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#my_p_text {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.hard_all_p {
+    color: rgb(13, 19, 33);
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.html {
+    margin: 10px;
+}
+
+.learn {
+    color: rgb(13, 19, 33);
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 10px;
+
+}
+
+
+/* Last option */
+
+#last_banner {
+    width: 1000px;
+    height: 300px;
+
+    background-image: url("./B10A1-Challenge-Begins/assets/handshake.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 48px 64px 48px;
+    border-radius: 16px;
+
+}
+
+#last_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+#last_banner_h2 {
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+
+}
+
+#last_p {
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#last_input {
+    height: 40px;
+    width: 400px;
+}
+
+#last_button {
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-family:monospace;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+
 
 }
